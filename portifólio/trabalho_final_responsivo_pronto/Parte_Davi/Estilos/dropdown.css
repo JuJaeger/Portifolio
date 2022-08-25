@@ -1,0 +1,22 @@
+.dropdown-item:hover{
+    color: #000000 !important;
+}
+
+body{
+    scroll-padding-top: 150px;
+}
+
+main{
+    padding-top: 20px;
+}
+
+footer{
+    height: 220px;
+    padding: 50px;
+}
+
+.navegacao{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(61, 60, 68, 0.397), rgb(34, 30, 30));
+    padding: 4px;
+    border-radius: 5px;
+}

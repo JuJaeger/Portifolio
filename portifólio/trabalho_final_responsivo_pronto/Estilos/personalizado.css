@@ -1,0 +1,59 @@
+.black{
+    color: black;
+}
+
+.baixo{
+    padding-bottom: 10px;
+}
+
+body{
+    background-image: linear-gradient(black, gray);
+}
+
+.titulo-secao{
+    text-align: center;
+    border-right: 38px solid #b6b7f899;
+    border-bottom: 2px solid #8f8e9c7e;
+    border-radius: 50%;
+}
+
+.shadow{
+    box-shadow: 8px 9px 16px 9px rgba(0,0,0,0.87);
+}
+
+.dropdown-item:hover{ 
+    color: black !important;
+}
+
+footer{
+    height: 220px;
+    padding: 50px;
+}
+
+.navegacao{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(61, 60, 68, 0.397), rgb(34, 30, 30));
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.borda{
+    border-radius: 15px;
+    border-color: black;
+    padding: 60px;
+}
+
+.max{
+    max-width: 410px;
+}
+
+@media (max-width: 768px){
+    .max{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .borda{
+        padding: 20px;
+    }
+}

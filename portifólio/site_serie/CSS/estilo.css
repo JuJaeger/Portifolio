@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(to bottom right, purple, blue);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header{
+    color: #02d653;
+    text-shadow: 8px 5px 14px #1FE050;
+}
+
+nav{
+    text-align: center;
+    background: transparent;
+}
+
+.link{
+    font-size: 14px;
+    text-align: center;
+}
+
+.imagem{
+    border-radius: 85px;
+    border: solid 3px black;
+}
+
+.imagem_2{
+    border-radius: 85px;
+    border: solid 15px black;
+}
+
+.texto{
+    color: #71DBCA;
+    text-shadow: 7px 4px 11px #000000;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(180deg, black, white);;
+    color: #FFFFFF;
+    padding: 4px;
+    padding-bottom: 2px;
+}

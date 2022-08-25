@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="Imagens/sims.jpeg">
+        <link rel="icon" type="image/png" sizes="32x32" href="Imagens/sims.jpeg">
+        <link rel="icon" type="image/png" sizes="16x16" href="Imagens/sims.jpeg">
+        <link rel="manifest" href="Imagens/sims.jpeg">
+        <link rel="mask-icon" href="Imagens/sims.jpeg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+
+
+        <!-- CSS Customizado -->
+        <link rel="stylesheet" href="Estilos/customizado.css">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/f02888817a.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <title>Minha Biografia</title>
+    </head>
+
+    <body>
+        <header id="topo">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top navegacao">
+                <a class="navbar-brand text-secondary" href="#">
+                    <i class="fa-brands fa-ethereum gold"></i> Apresentação</i>
+                </a>
+
+                <div class="ml-auto">
+                    <a href="plus.html" target="_blank">
+                        <button class="btn btn-meddium btn-secondary text-dark">
+                            <i class="fa-solid fa-magnifying-glass-plus gold"></i> Acesso ao Plus
+                        </button>
+                    </a>
+                </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <section class="mt-5 margem">
+        <!-- Modal Email -->
+        <div class="modal fade" id="modalEmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Enviar E-mail para Julia Jaeger</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Destinatário:</label>
+                      <input type="text" value="juliacjaeger13@gmail.com" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label">Mensagem:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Fechar
+                  </button>
+                  <a href="index.html">
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 mt-5">
+                    <img class="rounded-circle" src="Imagens/eu.jpeg" alt="Generic placeholder image" width="170"
+                        height="170">
+                    <h3 class="ml-3 gold">Julia Jaeger</h3>
+                </div>
+
+                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10 mt-5">
+                    <div class="card gradiente gold sombra">
+                        <div class="card-header">
+                            <h3 class="text-center">Um Pouco Sobre Mim</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>
+                                            <p><b>Nome:</b> Julia Cremonese Jaeger</p>
+                                        </li>
+
+                                        <li>
+                                            <p><b>Idade:</b> 16 anos</p>
+                                        </li>
+
+                                        <li>
+                                            <p><b>Localidade:</b> Brasil/ Santa Maria - RS</p>
+                                        </li>
+
+                                        <li>
+                                            <h6><b>Contato:</b></h6>
+                                            <p>
+                                                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=55991370342" class="btn btn-outline-info" target="_blank">
+                                                    <i class="fa-brands fa-whatsapp gold"></i>
+                                                </a>
+                                                    (55) 99137-0342
+                                                <br><br>
+                                                <a href="https://www.instagram.com/" class="btn btn-outline-info" target="_blank">
+                                                    <i class="fa-brands fa-instagram gold"></i>
+                                                </a>
+                                                    JuliaJaeger13
+                                                <br><br>
+                                                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#modalEmail" data-whatever="juliacjaeger13@gmail.com">
+                                                    <i class="fa-solid fa-envelope gold"></i>
+                                                </button>
+                                                    juliacjaeger13@gmail.com
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <h6><b>Cursando:</b></h6>
+                                            <p>
+                                                - Tecnologia de Informação no Senac;
+                                                <br>
+                                                - Curso de Inglês na Yes!
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <h6><b>Projetos desenvolvidos durante o Curso no Senac:</b></h6>
+                                            <a href="portifólio/receitas/index.html" target="_blank">
+                                                <img class="m-1" src="Imagens/site01.png" width="160" height="130">
+                                            </a>
+                                            <a href="portifólio/site_serie/index.html" target="_blank">
+                                                <img class="m-1" src="Imagens/site02.png" width="160" height="130">
+                                            </a>
+                                            <a href="portifólio/trabalho_individual/index.html" target="_blank">
+                                                <img class="m-1" src="Imagens/site03.png" width="160" height="130">
+                                            </a>
+                                            <a href="portifólio/trabalho_final_responsivo_pronto/index.html" target="_blank">
+                                                <img class="m-1" src="Imagens/site04.png" width="160"height="130">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>
+                                            <p><b>Escolaridade:</b> Segundo ano do Ensino Médio no Colégio Militar de Santa
+                                                Maria;</p>
+                                        </li>
+
+                                        <li>
+                                            <h6><b>Curiosidades Extras:</b></h6>
+                                            <p>
+                                                - Paticipo do grupo das Filhas de Jó, uma Ordem discreta de princípios
+                                                fraternais, filosóficos, iniciáticos, e filantrópicos, apoiada pela
+                                                Maçonaria, e destinada a jovens do sexo feminino entre 10 e 20 anos
+                                                incompletos. No qual assumo o cargo de Segunda Princesa, terceiro cargo mais
+                                                alto;
+                                                <br>
+                                                - Pratico Vôlei na equipe do Colégio Militar;
+                                                <br>
+                                                - Gosto de ler e ver filmes e séries;
+                                            </p>
+
+                                        </li>
+
+                                        <li>
+                                            <h6><b>Um pouco mais sobre os cursos:</b></h6>
+
+                                            <p>
+                                                <b>- Senac:</b>
+                                                O curso RSTI termina no presente dia 26/08/2022;
+                                                O curso foi dividido em três partes: Lógica de Progamação (60h),
+                                                Desenvolvimento Web Front-End (108h) e JAVASCRIPT (36h)
+                                                <br><br>
+                                                <b>- YES!:</b>
+                                                Estou cursando o 6° semestre e finalizo no 8°, ou seja, no fim do ano de
+                                                2023.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="container-fluid box-shadow mt-5 pb-4 navegacao">
+            <div class="row mt-5">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center text-md-left">
+                    <img src="Imagens/avmb.webp" width="130" height="40">
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center gold">
+                    <p>
+                        &copy; Apresentação - Santa Maria - RS
+                    </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-right">
+                    <a href="#topo" class="btn btn-sm btn-dark gold">
+                        <i class="fa-solid fa-arrow-up-long gold"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

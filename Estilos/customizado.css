@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(26, 4, 226), rgb(95, 105, 143));
+    scroll-padding-top: 150px;
+    text-align: left;
+}
+
+.navegacao{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(26, 4, 226), rgb(56, 58, 65));
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.gradiente{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(133, 133, 125));
+}
+
+.gold{
+    color: rgb(255, 187, 0);
+}
+
+.sombra{
+    box-shadow: 14px 10px 50px -15px #000000;
+}
+
+
+
+
+.margem{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+@media (max-width: 768px){
+    .margem{
+        text-align: center;
+    }
+}
