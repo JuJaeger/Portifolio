@@ -32,6 +32,6 @@ body{
 
 @media (max-width: 768px){
     .margem{
-        text-align: center;
+        text-align: left;
     }
 }
